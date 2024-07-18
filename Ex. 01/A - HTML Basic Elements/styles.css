@@ -1,0 +1,19 @@
+body{
+    font-family:Georgia;
+}
+.head{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.si{
+    position: fixed;
+    right: 70px; 
+    text-align: right;
+}
+img{
+    position: fixed;
+    bottom: 221px;
+    right: 18px;
+}
