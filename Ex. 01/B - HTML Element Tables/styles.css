@@ -1,0 +1,12 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    text-align: center;
+}
+.head{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
