@@ -1,0 +1,124 @@
+* {
+    font-weight: bold;
+    box-sizing: border-box; /* Added for consistent box sizing */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Consistent font */
+    margin: 0;
+    padding: 0;
+}
+
+#bg {
+    background: url(TdSIj.jpg) no-repeat center center fixed; /* Center the background image */
+    background-size: cover; /* Make the image cover the entire window */
+    height: 1000px; /* Full viewport height */
+    width: 1000px; /* Full width */
+    display: flex; /* Flexbox for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#transbox {
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border: 1px solid black;
+    text-align: left; /* Left-align text */
+    padding: 20px; /* Inner padding */
+    border-radius: 15px; /* Rounded corners */
+    width: 400px; /* Fixed width for the form */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Spacing around labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+input[type="radio"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Input border */
+    border-radius: 4px; /* Rounded corners for inputs */
+}
+
+button {
+    background-color: #28a745; /* Submit button color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 10px; /* Space between buttons */
+}
+
+button[type="reset"] {
+    background-color: #dc3545; /* Reset button color */
+}
+
+button:hover {
+    opacity: 0.9; /* Slightly darker on hover */
+}
+
+input[type="checkbox"] {
+    margin: 0 5px 10px; /* Space around checkboxes */
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#bg {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+}
+
+button:hover {
+    opacity: 0.9;
+}

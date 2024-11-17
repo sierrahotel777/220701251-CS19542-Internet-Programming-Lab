@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Page Layout</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <div class="head">
+    <img class="logo"src="logo2.png" alt="logo">
+    <img class="un" src="UN-logo.png" ALT="un logo">
+</div>
+<HR>
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto"> 
+                <li class="nav-item">
+                    <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">DEPARTMENT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">COE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ACADEMICS</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ADMISSIONS</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FACILITIES</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">STUDENT</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PLACEMENTS</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RESEARCH</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">IIC</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">IIIC</a> 
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ALUMNI</a> 
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">IR</a> 
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">IQAC</a> 
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#">NAAC</a> 
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="#">UGC</a> 
+</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<style>
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+   
+    .container {
+        display: flex;
+        padding: 20px;
+    }
+
+  
+    .profile-sidebar {
+        width: 25%;
+        padding: 20px;
+        background-color: #f2f2f2;
+        border-right: 2px solid #ccc;
+    }
+
+    .profile-sidebar h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        color: purple;
+    }
+
+    .profile-sidebar ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .profile-sidebar ul li {
+        margin: 8px 0;
+    }
+
+    .profile-sidebar ul li a {
+        text-decoration: none;
+        color: #555;
+        font-weight: bold;
+    }
+
+    .profile-sidebar ul li a:hover {
+        color: purple;
+        text-decoration: underline;
+    }
+
+   
+    .main-content {
+        flex: 1;
+        padding: 20px;
+        padding-left: 40px;
+    }
+
+    .main-content h3 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: purple;
+    }
+
+    .main-content p {
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+</style>
+
+
+<div class="container">
+   
+    <aside class="profile-sidebar">
+        <h2>Profile</h2>
+        <ul>
+            <li><a href="#correspondent-message">Correspondent's Message</a></li>
+            <li><a href="#principal">Principal</a></li>
+            <li><a href="#about-college">About the College</a></li>
+            <li><a href="#accreditations">Accreditations</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#governing-body">Governing Body</a></li>
+            <li><a href="#academic-council">Academic Council</a></li>
+            <li><a href="#mou">MOUs</a></li>
+            <li><a href="#faculty">Eminent Faculty Members</a></li>
+            <li><a href="#disclosures">Mandatory Disclosures</a></li>
+            <li><a href="#visitor-remark">Visitor’s Remark</a></li>
+            <li><a href="#policies">Policies</a></li>
+            <li><a href="#committees">Committees</a></li>
+        </ul>
+    </aside>
+
+    
+    <main class="main-content">
+        <img src="correspondent.jpg" alt="correspondent">
+        <h3 id="correspondent-message">Correspondent's Message</h3>
+        <p>In a country where education is held in very high esteem and the teacher is equated to God, we at Rajalakshmi Engineering College have dedicated ourselves to impart education and develop the student to be a responsible engineer and individual.</p>
+        <p>Students of Rajalakshmi Engineering College are groomed carefully, and the virtues of hard work, discipline, and ethical practices in the profession are imbibed in them constantly during their campus life.</p>
+        <p>Campus life here stresses the importance of extra academic activities apart from academic learning, leading them to many new avenues. All these go a long way in making our students thoroughbred professionals, eminently suited to contribute to their chosen careers with an ever-open mind for new thoughts and ideas in industrial and technological advancements.</p>
+        <p>We are hence confident that our students equipped with such capabilities will emerge as valuable contributory assets to the development of the organizations they serve, as well as to the nation.</p>
+    </main>
+</div>
+
+  <footer class="text-center text-lg-start text-white" style="background-color: purple;">
+    <div class="container p-4">
+      
+        <div class="row">
+          
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Quick Links</h5>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="#!" class="text-white">Profile</a></li>
+                    <li><a href="#!" class="text-white">About College</a></li>
+                    <li><a href="#!" class="text-white">Accreditations</a></li>
+                    <li><a href="#!" class="text-white">Certifications</a></li>
+                    <li><a href="#!" class="text-white">Governing Council</a></li>
+                    <li><a href="#!" class="text-white">Development Council</a></li>
+                </ul>
+            </div>
+
+         
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Academics & Facilities</h5>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="#!" class="text-white">MoU</a></li>
+                    <li><a href="#!" class="text-white">Eminent Faculty</a></li>
+                    <li><a href="#!" class="text-white">Academic Departments</a></li>
+                    <li><a href="#!" class="text-white">Admissions</a></li>
+                    <li><a href="#!" class="text-white">Facilities</a></li>
+                    <li><a href="#!" class="text-white">Student Life</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Contact & More</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#!" class="text-white">Research</a></li>
+                    <li><a href="#!" class="text-white">Alumni</a></li>
+                    <li><a href="#!" class="text-white">Curriculum Feedback</a></li>
+                    <li><a href="#!" class="text-white">Contact Us</a></li>
+                </ul>
+                <p class="mt-3 mb-0">Rajalakshmi Engineering College,<br>
+                    Rajalakshmi Nagar Thandalam, Chennai - 602 105.<br>
+                    Phone: +91-44-67181111, 67181112
+                </p>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © Rajalakshmi Engineering College
+    </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

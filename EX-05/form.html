@@ -1,0 +1,51 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="form.css">
+   <script src="form.js"></script>
+</head>
+<body>
+    <div id="bg">
+        <div id="transbox">
+            <form name="rec" action="#" method="post" onsubmit="return validate()">
+                <label>Enter First Name:</label>
+                <input type="text" name="fname" id="f1">
+
+                <label>Enter Last Name:</label>
+                <input type="text" name="lname" id="f2">
+
+                <label>Enter E-mail ID:</label>
+                <input type="email" name="email" id="f3">
+
+                <label>Select Gender:</label>
+                <input type="radio" name="gender" id="gender_male" value="male">
+                <label for="gender_male">MALE</label>
+                <input type="radio" name="gender" id="gender_female" value="female">
+                <label for="gender_female">FEMALE</label>
+                <input type="radio" name="gender" id="gender_other" value="other">
+                <label for="gender_other">OTHER</label>
+
+                <label for="tel">Enter Contact Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="db">Enter D.O.B:</label>
+                <input type="date" name="db" id="db">
+
+                <label for="ps">Enter Password:</label>
+                <input type="password" name="ps" id="ps">
+                <input type="checkbox" onclick="showpass('ps')">Show Password
+
+                <label for="cps">Confirm Password:</label>
+                <input type="password" name="cps" id="cps">
+                <input type="checkbox" onclick="showpass('cps')">Show Password
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

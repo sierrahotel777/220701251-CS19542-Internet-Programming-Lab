@@ -1,0 +1,22 @@
+table,td,th{
+    text-align:center;
+    border:1px solid black;
+    border-collapse:collapse;
+    }
+    #tab{
+        width:100%;
+        margin-top:70px;
+    }
+    .caption{
+        text-align:center;
+        margin-top:20px;
+    }
+    #log{
+        margin-right:800px;
+        width:90px;
+        height:90px;
+        margin-top:0px;
+    }
+    #pic{
+        position:absolute;
+    }

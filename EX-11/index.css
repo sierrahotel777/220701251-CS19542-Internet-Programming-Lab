@@ -1,0 +1,24 @@
+.logo{
+    height:100px;
+    width:300px;
+    margin-left:70px;
+}
+.un{
+    height:130px;
+    margin-left: 250px;
+}
+.navbar-nav .nav-link {
+    color: purple; 
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: darkviolet; 
+}
+
+/* .navbar {
+    border-top: 2px solid #000; 
+    border-bottom: 2px solid #000; 
+} */
+
+

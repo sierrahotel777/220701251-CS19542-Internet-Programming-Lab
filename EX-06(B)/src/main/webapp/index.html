@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Name Suggestion</title>
+    <script>
+        function showSuggestions() {
+            var input = document.getElementById("studentName").value;
+            if (input.length == 0) {
+                document.getElementById("suggestions").innerHTML = "";
+                return;
+            }
+
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    document.getElementById("suggestions").innerHTML = xhr.responseText;
+                }
+            };
+
+            xhr.open("GET", "StudentNameSuggestionServlet?query=" + input, true);
+            xhr.send();
+        }
+    </script>
+</head>
+<body>
+    <h2>Student Name Suggestion</h2>
+    <input type="text" id="studentName" onkeyup="showSuggestions()" placeholder="Type student name...">
+    <div id="suggestions"></div>
+    <br>
+  <button onclick="showSuggestions()">Submit</button>
+</body>
+</html>
